@@ -1,0 +1,22 @@
+name: profit
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=1.23.5
+  - scipy=1.15.3
+  - biopython=1.86
+  - pytorch::pytorch=2.4.1
+  - pytorch::pytorch-cuda=12.4
+  - pyg::pyg=2.6.1
+  - pyg::pytorch-scatter=2.1.2
+  - pyg::pytorch-sparse=0.6.18
+  - pip:
+      - einops==0.6.0
+      - lightning==2.5.0
+      - omegaconf==2.3.0

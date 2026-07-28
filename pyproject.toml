@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "profit-tokenizer"
+version = "1.0.0"
+description = "Flow-matching protein structure tokenizer"
+requires-python = ">=3.11"
+
+[project.scripts]
+profit-prepare = "profit.data:main"
+profit-train = "profit.train:main"
+profit-reconstruct = "profit.reconstruct:main"
+
+[tool.setuptools.packages.find]
+include = ["profit*", "openfold*"]
+
+[tool.ruff]
+exclude = ["openfold"]
