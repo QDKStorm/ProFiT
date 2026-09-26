@@ -1,6 +1,4 @@
-# ProFiT
-
-Flow-matching protein structure tokenizer with VQ latents.
+# Flow-Matching-Based Protein Structure Tokenizer Made Efficient and Easy
 
 ## Environment
 
